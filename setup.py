@@ -1,4 +1,4 @@
-from setuptools import setup 
+from setuptools import setup
 
 
 setup(
@@ -7,6 +7,6 @@ setup(
     author="sgoodwin",
     description="xpath searches from the command line",
     packages=setuptools.find_packages(),
-    install_requires['lxml'],
-    entry_points={"console_scripts":["xsearch=py-xsearch:main"]},
+    install_requires=["lxml"],
+    entry_points={"console_scripts": ["xsearch=py-xsearch:main"]},
 )
