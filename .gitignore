@@ -1,0 +1,3 @@
+.mypy_cache/*
+xsearch/.mypy_cache/*
+
